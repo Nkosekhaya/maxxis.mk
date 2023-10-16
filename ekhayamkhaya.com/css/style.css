@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+.content {
+	width: 100%;
+	min-height: 100hv;
+	height: 720px;
+	background-image: linear-gradient(rgba(9, 0, 77, 0.75), rgba(9, 0, 77, 0.75)), url(../background.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 8%;
+}
+.content nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+	margin-top: 25px;
+}
+.content .logo {
+	width: 150px;
+	cursor: pointer;
+	margin-left: -65px;
+}
+.content nav ul {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	margin-right: -25px;
+}
+.content nav ul li {
+	display: inline-block;
+	margin: 10px 20px;
+}
+.content nav ul li a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+/*.bar .button {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	border: 0;
+	outline: 0;
+	border-radius: 5px;
+	background: orangered;
+	color: #fff;
+	font-weight: 500;
+	cursor: pointer;	
+}*/
+.content .bar .button img {
+	width: 20px;
+	margin-right: 10px;
+}
+.content .bar{
+	align-items: right;
+	margin-top: -35px;
+	margin-right: -65px;
+}
+.content .bar form {
+	display: flex;
+	align-items: right;
+	background: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.content .bar form input {
+	border: 0;
+	outline: 0;
+	width: 200px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.content .bar .button {
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	border: 0;
+	outline: 0;
+	border-radius: 5px;
+	background: orangered;
+	color: #fff;
+	font-weight: 500;
+	cursor: pointer;
+}
+.content .name {
+	align-items: left;
+	color: whitesmoke;
+	margin-left: -65px;	
+}
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: #fff;
+	background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65));
+    padding: 40px 80px;
+}
+
+.footer .copy {
+    color: black;
+	font-family: georgian;
+	font-weight: bold;
+	font: bold;
+    align-items: left;   
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    padding: 40px 0;
+}
+
+.bottom-links .links {
+    display: flex;	
+	font-weight: bold;
+	font: bold;	
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.bottom-links .links span {
+    font-size: 20px;
+	font-family: georgian;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+
+
+
+
